@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "noanvillimit",
+  "version": "${version}",
+  "name": "NoAnvilLimit",
+  "description": "Removes the length limit from anvils when renaming items.",
+  "authors": [
+    "Rooot"
+  ],
+  "license": "WTFPL",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ddns.foxsquad.noanvillimit.NoAnvilLimit"
+    ]
+  },
+  "mixins": [
+    "noanvillimit.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": "1.17.1"
+  }
+}
